@@ -307,7 +307,7 @@
 }
 
 @article{xuan2016nopol,
-  title =        {Nopoly: Automatic Repair of Conditional Statement
+  title =        {Nopol: Automatic Repair of Conditional Statement
                   Bugs in Java Programs},
   author =       {Xuan, Jifeng and Martinez, Matias and Demarco, Favio
                   and Cl{\'e}ment, Maxime and Lamelas, Sebastian and
@@ -438,34 +438,20 @@
   year =         2012,
 }
 
-@inproceedings{Xuan2016History, 
-    author={Le, Xuan Bach D., David Lo, and Claire Le Goues. }, 
-    booktitle={ SANER}, 
-    title={History Driven Program Repair}, 
-    year={2016},
-    pages={213-224}, 
-    doi={10.1109/SANER.2016.76}, 
-    month={March}
+
+@inproceedings{Xuan2016History,
+  title =        {History Driven Program Repair},
+  author =       {Xuan-Bach D Le and David Lo and Claire {Le Goues}},
+  booktitle =    {SANER},
+  year =         2016
 }
 
-@article{survey,
-    title = {{Automatic Software Repair: a Bibliography}},
-    author = {Monperrus, Martin},
-    url = {https://hal.archives-ouvertes.fr/hal-01206501/file/survey-automatic-repair.pdf},
-    journal = {{ACM Computing Surveys}},
-    publisher = {{Association for Computing Machinery}},
-    year = {2017},
-}
-
-@ARTICLE{repair-survey2017, 
-    author={Gazzola, Luca, Daniela Micucci, and Leonardo Mariani}, 
-    journal={TSE}, 
-    title={Automatic Software Repair: A Survey}, 
-    year={2017}, 
-    volume={PP}, 
-    number={99}, 
-    pages={1-1}, 
-    doi={10.1109/TSE.2017.2755013}, 
+@techreport{survey,
+  title =        {Automatic Software Repair: a Bibliography},
+  author =       {Monperrus, Martin},
+  number =       {\#hal-01206501},
+  institution =  {University of Lille},
+  year =         2015
 }
 
 @incollection{de2008z3,
@@ -608,12 +594,13 @@
   year =         2016
 }
 
-@inproceedings{genesis,
+@techreport{genesis,
   author =       {Long, Fan and Amidon, Peter and Rinard, Martin},
-  title =        {Automatic Inference of Code Transforms for Patch Generation},
-  booktitle =    {ESEC/FSE},
-  pages =        {727--739},
-  year =         2017
+  title =        {Automatic Inference of Code Transforms and Search
+                  Spaces for Automatic Patch Generation Systems},
+  number =       {MIT-CSAIL-TR-2016-010},
+  institution =  {MIT},
+  year =         2016
 }
 
 @inproceedings{gupta2017deepfix,
@@ -794,15 +781,10 @@
 }
 
 @inproceedings{Xin17,
-    author = {Xin, Qi and Reiss, Steven P.},
-    title = {Identifying Test-suite-overfitted Patches Through Test Case Generation},
-    booktitle = {ISSTA},
-    year = {2017},
-    location = {Santa Barbara, CA, USA},
-    pages = {226--236},
-    url = {http://doi.acm.org/10.1145/3092703.3092718},
-    doi = {10.1145/3092703.3092718},
-    publisher = {ACM}
+  title={Identifying Test-Suite-Overfitted Patches through Test Case Generation},
+  author={Qi Xin and Steven Reiss},
+  booktitle={ISSTA},
+  year={2017},
 }
 
 @inproceedings{Martinez2014,
@@ -830,6 +812,14 @@
     number="4",
     pages="1936--1964",
 }
+
+@inproceedings{Qi2015,
+    author = {Qi, Zichao and Long, Fan and Achour, Sara and Rinard, Martin},
+    title = {An Analysis of Patch Plausibility and Correctness for Generate-and-validate Patch Generation Systems},
+    series = {ISSTA 2015},
+    year = {2015},
+    pages = {24--36},
+} 
 
 @inproceedings{Gabel2010,
     author = {Gabel, Mark and Su, Zhendong},
@@ -901,6 +891,14 @@
     {ASE} '14, Vasteras, Sweden - September 15 - 19, 2014},
     pages     = {313--324},
     year      = {2014},
+}
+
+@inproceedings{PatchPlausibility,
+    author = {Qi, Zichao and Long, Fan and Achour, Sara and Rinard, Martin},
+    title = {An Analysis of Patch Plausibility and Correctness for Generate-and-validate Patch Generation Systems},
+    series = {ISSTA 2015},
+    year = {2015},
+    pages = {24--36},
 }
 
 @INPROCEEDINGS{CloneMaintenance, 
@@ -1557,484 +1555,140 @@
   doi          = {10.4204/EPTCS.182.3},
 }
 
-@InProceedings{Liu-Saner18,
-  author       = {Xuliang Liu and Hao Zhong},
-  title        = {Mining StackOverflow for Program Repair},
-  year         = 2018,
-  booktitle    = {Saner},
-}
-@INPROCEEDINGS{Ochiai, 
-    author = {Abreu, Rui and Zoeteweij, Peter and Gemund, Arjan J. C.  van},
-    title = {An Evaluation of Similarity Coefficients for Software Fault Localization},
-    booktitle = {Proceedings of the 12th Pacific Rim International Symposium on Dependable Computing},
-    series = {PRDC '06},
-    year = {2006},
-    isbn = {0-7695-2724-8},
-    pages = {39--46},
-    numpages = {8},
-    url = {http://dx.doi.org/10.1109/PRDC.2006.18},
-    doi = {10.1109/PRDC.2006.18},
-    acmid = {1194368},
-    publisher = {IEEE Computer Society},
-    address = {Washington, DC, USA},
-} 
-
-@inproceedings{Xuan:TestPurification,
-    author = {Xuan, Jifeng and Monperrus, Martin},
-    title = {Test Case Purification for Improving Fault Localization},
-    booktitle = {Proceedings of the 22Nd ACM SIGSOFT International Symposium on Foundations of Software Engineering},
-    series = {FSE 2014},
-    year = {2014},
-    isbn = {978-1-4503-3056-5},
-    location = {Hong Kong, China},
-    pages = {52--63},
-    numpages = {12},
-    url = {http://doi.acm.org/10.1145/2635868.2635906},
-    doi = {10.1145/2635868.2635906},
-    acmid = {2635906},
-    publisher = {ACM},
-    address = {New York, NY, USA},
-    keywords = {Test case purification, dynamic program slicing, spectrum-based fault localization, test case atomization},
-} 
-
-@inproceedings{SourcererCC,
-    author = {Sajnani, Hitesh and Saini, Vaibhav and Svajlenko, Jeffrey and Roy, Chanchal K. and Lopes, Cristina V.},
-    title = {SourcererCC: Scaling Code Clone Detection to Big-code},
-    booktitle = {Proceedings of the 38th International Conference on Software Engineering},
-    series = {ICSE '16},
-    year = {2016},
-    isbn = {978-1-4503-3900-1},
-    location = {Austin, Texas},
-    pages = {1157--1168},
-    numpages = {12},
-    url = {http://doi.acm.org/10.1145/2884781.2884877},
-    doi = {10.1145/2884781.2884877},
-    acmid = {2884877},
-    publisher = {ACM},
-    address = {New York, NY, USA},
-}
-
-@online{SimFix,
-    title = {SimFix},
-    author = {Anonymous},
-    year={2017},
-    howpublished    = {The URL is tempororily removed for double-blinded review. A package containing all the generated patches can be found in the attachment},
-}
-"\url{https://sites.google.com/view/simfix}"
-
-@online(ant,
-title = {Apache Ant},
-year={2017},
-howpublished = {https://github.com/apache/ant}
-}
-
-@online(groovy,
-title = {Apache Groovy},
-year={2017},
-howpublished = {https://github.com/apache/groovy}
-}
-
-@online(hadoop,
-title = {Apache Hadoop},
-year={2017},
-howpublished = {https://github.com/apache/hadoop}
-}
-@online(lucene,
-title = {Apache Lucene},
-year={2017},
-howpublished = {https://lucene.apache.org}.
-}
-
-@inproceedings{Whaley:BDD,
-    author = {Whaley, John and Lam, Monica S.},
-    title = {Cloning-based Context-sensitive Pointer Alias Analysis Using Binary Decision Diagrams},
-    booktitle = {Proceedings of the ACM SIGPLAN 2004 Conference on Programming Language Design and Implementation},
-    series = {PLDI '04},
-    year = {2004},
-    isbn = {1-58113-807-5},
-    location = {Washington DC, USA},
-    pages = {131--144},
-    numpages = {14},
-    url = {http://doi.acm.org/10.1145/996841.996859},
-    doi = {10.1145/996841.996859},
-    acmid = {996859},
-    publisher = {ACM},
-    address = {New York, NY, USA},
-}
-
-@inproceedings{Yan:demand-driven-alias,
-    author = {Yan, Dacong and Xu, Guoqing and Rountev, Atanas},
-    title = {Demand-driven Context-sensitive Alias Analysis for Java},
-    booktitle = {Proceedings of the 2011 International Symposium on Software Testing and Analysis},
-    series = {ISSTA '11},
-    year = {2011},
-    isbn = {978-1-4503-0562-4},
-    location = {Toronto, Ontario, Canada},
-    pages = {155--165},
-    numpages = {11},
-    url = {http://doi.acm.org/10.1145/2001420.2001440},
-    doi = {10.1145/2001420.2001440},
-    acmid = {2001440},
-    publisher = {ACM},
-    address = {New York, NY, USA},
-    keywords = {alias analysis, context sensitivity, demand-driven},
-}
-
-@inproceedings{Plevyak:precise-type-inference,
-    author = {Plevyak, John and Chien, Andrew A.},
-    title = {Precise Concrete Type Inference for Object-oriented Languages},
-    booktitle = {Proceedings of the Ninth Annual Conference on Object-oriented Programming Systems, Language, and Applications},
-    series = {OOPSLA '94},
-    year = {1994},
-    isbn = {0-89791-688-3},
-    location = {Portland, Oregon, USA},
-    pages = {324--340},
-    numpages = {17},
-    url = {http://doi.acm.org/10.1145/191080.191130},
-    doi = {10.1145/191080.191130},
-    acmid = {191130},
-    publisher = {ACM},
-    address = {New York, NY, USA},
-} 
-
-@inproceedings{Milojkovic:dynamic-type-inference,
-    author = {Milojkovi\'{c}, Nevena and Nierstrasz, Oscar},
-    title = {Exploring Cheap Type Inference Heuristics in Dynamically Typed Languages},
-    booktitle = {Proceedings of the 2016 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming and Software},
-    series = {Onward! 2016},
-    year = {2016},
-    isbn = {978-1-4503-4076-2},
-    location = {Amsterdam, Netherlands},
-    pages = {43--56},
-    numpages = {14},
-    url = {http://doi.acm.org/10.1145/2986012.2986017},
-    doi = {10.1145/2986012.2986017},
-    acmid = {2986017},
-    publisher = {ACM},
-    address = {New York, NY, USA},
-} 
-
-@inproceedings{Tang:TAL,
-    author = {Tang, Hao and Wang, Xiaoyin and Zhang, Lingming and Xie, Bing and Zhang, Lu and Mei, Hong},
-    title = {Summary-Based Context-Sensitive Data-Dependence Analysis in Presence of Callbacks},
-    booktitle = {Proceedings of the 42Nd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages},
-    series = {POPL '15},
-    year = {2015},
-    isbn = {978-1-4503-3300-9},
-    location = {Mumbai, India},
-    pages = {83--95},
-    numpages = {13},
-    url = {http://doi.acm.org/10.1145/2676726.2676997},
-    doi = {10.1145/2676726.2676997},
-    acmid = {2676997},
-    publisher = {ACM},
-    address = {New York, NY, USA},
-} 
-
-@inproceedings{Zhang:LCL,
-    author = {Zhang, Qirun and Su, Zhendong},
-    title = {Context-sensitive Data-dependence Analysis via Linear Conjunctive Language Reachability},
-    booktitle = {Proceedings of the 44th ACM SIGPLAN Symposium on Principles of Programming Languages},
-    series = {POPL 2017},
-    year = {2017},
-    isbn = {978-1-4503-4660-3},
-    location = {Paris, France},
-    pages = {344--358},
-    numpages = {15},
-    url = {http://doi.acm.org/10.1145/3009837.3009848},
-    doi = {10.1145/3009837.3009848},
-    acmid = {3009848},
-    publisher = {ACM},
-    address = {New York, NY, USA},
-}
-
-@inproceedings{Soto:deep-look-bug-fixes,
-    author = {Soto, Mauricio and Thung, Ferdian and Wong, Chu-Pan and Le Goues, Claire and Lo, David},
-    title = {A Deeper Look into Bug Fixes: Patterns, Replacements, Deletions, and Additions},
-    booktitle = {Proceedings of the 13th International Conference on Mining Software Repositories},
-    series = {MSR '16},
-    year = {2016},
-    isbn = {978-1-4503-4186-8},
-    location = {Austin, Texas},
-    pages = {512--515},
-    numpages = {4},
-    url = {http://doi.acm.org/10.1145/2901739.2903495},
-    doi = {10.1145/2901739.2903495},
-    acmid = {2903495},
-    publisher = {ACM},
-    address = {New York, NY, USA},
-    keywords = {automatic error repair, human-like patches, maintainability},
+@InProceedings{Gulwani-IJCAR16,
+  author       = {Sumit Gulwani},
+  title        = {Programming by Examples: Applications, Algorithms,
+                  and Ambiguity Resolution},
+  year         = 2016,
+  booktitle    = {IJCAR},
+  pages        = {9-14},
 }
 
 
-@ARTICLE{White2017,
-    author = {{White}, M. and {Tufano}, M. and {Martinez}, M. and {Monperrus}, M. and 
-    {Poshyvanyk}, D.},
-    title = "{Sorting and Transforming Program Repair Ingredients via Deep Learning Code Similarities}",
-    journal = {ArXiv e-prints},
-    archivePrefix = "arXiv",
-    eprint = {1707.04742},
-    primaryClass = "cs.SE",
-    keywords = {Computer Science - Software Engineering},
-    year = 2017,
-    month = jul,
+@InProceedings{Nguyen-ICSE12,
+  author       = {Anh Tuan Nguyen and Tung Thanh Nguyen and Hoan Anh
+                  Nguyen and Ahmed Tamrawi and Hung Viet Nguyen and
+                  Jafar M. Al{-}Kofahi and Tien N. Nguyen},
+  title        = {Graph-based pattern-oriented, context-sensitive
+                  source code completion},
+  year         = 2012,
+  booktitle    = {ICSE},
+  pages        = {69-79},
 }
 
-@inproceedings{Milea2014,
-    author = {Milea, Narcisa Andreea and Jiang, Lingxiao and Khoo, Siau-Cheng},
-    title = {Vector Abstraction and Concretization for Scalable Detection of Refactorings},
-    booktitle = {FSE},
-    year = {2014},
-    isbn = {978-1-4503-3056-5},
-    location = {Hong Kong, China},
-    pages = {86--97},
-    numpages = {12},
-    url = {http://doi.acm.org/10.1145/2635868.2635926},
-    doi = {10.1145/2635868.2635926},
-    acmid = {2635926},
-    publisher = {ACM},
-    address = {New York, NY, USA}
-} 
 
-@InProceedings{DBLP:conf/sigsoft/BarrBDHS14,
-    author       = {Earl T. Barr and Yuriy Brun and Premkumar T. Devanbu
-    and Mark Harman and Federica Sarro},
-    title        = {The plastic surgery hypothesis},
-    year         = 2014,
-    booktitle    = {Proceedings of the 22nd {ACM} {SIGSOFT}
-    International Symposium on Foundations of Software
-    Engineering, (FSE-22), Hong Kong, China, November 16
-    - 22, 2014},
-    pages        = {306-317},
-    doi          = {10.1145/2635868.2635898},
-    url          = {http://doi.acm.org/10.1145/2635868.2635898},
-    crossref     = {DBLP:conf/sigsoft/2014},
-    timestamp    = {Mon, 05 Jun 2017 12:42:59 +0200},
-    biburl       =
-    {http://dblp.dagstuhl.de/rec/bib/conf/sigsoft/BarrBDHS14},
-    bibsource    = {dblp computer science bibliography, http://dblp.org}
+@InProceedings{Raghothaman-ICSE16,
+  author       = {Mukund Raghothaman and Yi Wei and Youssef Hamadi},
+  title        = {{SWIM:} synthesizing what i mean: code search and
+                  idiomatic snippet synthesis},
+  year         = 2016,
+  booktitle    = {ICSE},
+  pages        = {357-367},
 }
 
-@proceedings{DBLP:conf/sigsoft/2014,
-    editor    = {Shing{-}Chi Cheung and
-    Alessandro Orso and
-    Margaret{-}Anne D. Storey},
-    title     = {Proceedings of the 22nd {ACM} {SIGSOFT} International Symposium on
-    Foundations of Software Engineering, (FSE-22), Hong Kong, China, November
-    16 - 22, 2014},
-    publisher = {{ACM}},
-    year      = {2014},
-    url       = {http://dl.acm.org/citation.cfm?id=2635868},
-    isbn      = {978-1-4503-3056-5},
-    timestamp = {Fri, 07 Nov 2014 12:46:29 +0100},
-    biburl    = {http://dblp.dagstuhl.de/rec/bib/conf/sigsoft/2014},
-    bibsource = {dblp computer science bibliography, http://dblp.org}
+
+@InProceedings{Bielik-ICML16,
+  author       = {Pavol Bielik and Veselin Raychev and Martin T.
+                  Vechev},
+  title        = {{PHOG:} Probabilistic Model for Code},
+  year         = 2016,
+  booktitle    = {ICML},
+  pages        = {2933-2942},
 }
 
-@InProceedings{DBLP:conf/sigsoft/RayK12,
-    author       = {Baishakhi Ray and Miryung Kim},
-    title        = {A case study of cross-system porting in forked
-    projects},
-    year         = 2012,
-    booktitle    = {20th {ACM} {SIGSOFT} Symposium on the Foundations of
-    Software Engineering (FSE-20), SIGSOFT/FSE'12, Cary,
-    NC, {USA} - November 11 - 16, 2012},
-    pages        = 53,
-    doi          = {10.1145/2393596.2393659},
-    url          = {http://doi.acm.org/10.1145/2393596.2393659},
-    crossref     = {DBLP:conf/sigsoft/2012},
-    timestamp    = {Mon, 15 Jun 2015 19:00:08 +0200},
-    biburl       = {http://dblp.dagstuhl.de/rec/bib/conf/sigsoft/RayK12},
-    bibsource    = {dblp computer science bibliography, http://dblp.org}
+
+@Article{beamsearch,
+  author       = {Mark F. Medress and Franklin S. Cooper and James W.
+                  Forgie and C. C. Green and Dennis H. Klatt and
+                  Michael H. O'Malley and Edward P. Neuburg and Allen
+                  Newell and Raj Reddy and H. Barry Ritea and J. E.
+                  Shoup{-}Hummel and Donald E. Walker and William A.
+                  Woods},
+  title        = {Speech Understanding Systems},
+  year         = 1977,
+  volume       = 9,
+  number       = 3,
+  pages        = {307-316},
+  doi          = {10.1016/0004-3702(77)90026-1},
+  journal      = {Artif. Intell.},
 }
 
-@proceedings{DBLP:conf/sigsoft/2012,
-    editor    = {Will Tracz and
-    Martin P. Robillard and
-    Tevfik Bultan},
-    title     = {20th {ACM} {SIGSOFT} Symposium on the Foundations of Software Engineering
-    (FSE-20), SIGSOFT/FSE'12, Cary, NC, {USA} - November 11 - 16, 2012},
-    publisher = {{ACM}},
-    year      = {2012},
-    url       = {http://dl.acm.org/citation.cfm?id=2393596},
-    isbn      = {978-1-4503-1614-9},
-    timestamp = {Mon, 15 Jun 2015 19:00:08 +0200},
-    biburl    = {http://dblp.dagstuhl.de/rec/bib/conf/sigsoft/2012},
-    bibsource = {dblp computer science bibliography, http://dblp.org}
+@Book{Pierce-TypeBook,
+  author       = {Benjamin C. Pierce},
+  title        = {Types and programming languages},
+  year         = 2002,
+  publisher    = {{MIT} Press},
+  isbn         = {978-0-262-16209-8},
 }
 
-@InProceedings{DBLP:conf/sigsoft/LeCLGV17,
-    author       = {Xuan{-}Bach D. Le and Duc{-}Hiep Chu and David Lo
-    and Claire {Le Goues} and Willem Visser},
-    title        = {{S3:} syntax- and semantic-guided repair synthesis
-    via programming by examples},
-    year         = 2017,
-    booktitle    = {ESEC/FSE},
-    pages        = {593-604},
-    doi          = {10.1145/3106237.3106309},
-    url          = {http://doi.acm.org/10.1145/3106237.3106309},
-    crossref     = {DBLP:conf/sigsoft/2017},
-    biburl       =
-    {http://dblp.dagstuhl.de/rec/bib/conf/sigsoft/LeCLGV17},
+@InProceedings{Nguyen-ICSE15,
+  author       = {Anh Tuan Nguyen and Tien N. Nguyen},
+  title        = {Graph-Based Statistical Language Model for Code},
+  year         = 2015,
+  booktitle    = {ICSE},
+  pages        = {858-868},
 }
 
-@proceedings{DBLP:conf/sigsoft/2017,
-    editor    = {Eric Bodden and
-    Wilhelm Sch{\"{a}}fer and
-    Arie van Deursen and
-    Andrea Zisman},
-    title     = {Proceedings of the 2017 11th Joint Meeting on Foundations of Software
-    Engineering, {ESEC/FSE} 2017, Paderborn, Germany, September 4-8, 2017},
-    publisher = {{ACM}},
-    year      = {2017},
-    url       = {http://dl.acm.org/citation.cfm?id=3106237},
-    isbn      = {978-1-4503-5105-8},
-    timestamp = {Wed, 16 Aug 2017 07:56:16 +0200},
-    biburl    = {http://dblp.dagstuhl.de/rec/bib/conf/sigsoft/2017},
-    bibsource = {dblp computer science bibliography, http://dblp.org}
+
+@InProceedings{Weimer-ICSE12,
+  author       = {Raymond P. L. Buse and Westley Weimer},
+  title        = {Synthesizing {API} usage examples},
+  year         = 2012,
+  booktitle    = {ICSE},
+  pages        = {782-792},
 }
 
-@Article{DBLP:journals/tse/NguyenNPAN12,
-    author       = {Hoan Anh Nguyen and Tung Thanh Nguyen and Nam H.
-    Pham and Jafar M. Al{-}Kofahi and Tien N. Nguyen},
-    title        = {Clone Management for Evolving Software},
-    year         = 2012,
-    volume       = 38,
-    number       = 5,
-    pages        = {1008-1026},
-    doi          = {10.1109/TSE.2011.90},
-    url          = {https://doi.org/10.1109/TSE.2011.90},
-    journal      = {{IEEE} Trans. Software Eng.},
-    timestamp    = {Thu, 15 Jun 2017 21:30:50 +0200},
-    biburl       =
-    {http://dblp.dagstuhl.de/rec/bib/journals/tse/NguyenNPAN12},
-    bibsource    = {dblp computer science bibliography, http://dblp.org}
+@InProceedings{Gulwani-APLAS17,
+  author       = {Sumit Gulani and Prateek Jain},
+  title        = {Programming by Examples: PL meets ML},
+  year         = 2017,
+  booktitle    = {APLAS},
 }
 
-@book{Java,
-    title={The Java language specification},
-    author={Gosling, James},
-    year={2000},
-    publisher={Addison-Wesley Professional}
+@InProceedings{Singh-SNAPL17,
+  author       = {Rishabh Singh and Pushmeet Kohli},
+  title        = {{AP:} Artificial Programming},
+  year         = 2017,
+  booktitle    = {SNAPL},
+  pages        = {16:1--16:12},
 }
 
-@book{Cosine,
-    editor = {Salton, Gerald},
-    title = {Automatic Text Processing},
-    year = {1988},
-    isbn = {0-2:1-1227-8},
-    publisher = {Addison-Wesley Longman Publishing Co., Inc.},
-    address = {Boston, MA, USA},
-} 
 
-@inproceedings{CReN:ConsistencyModify,
-    author = {Jablonski, Patricia and Hou, Daqing},
-    title = {CReN: A Tool for Tracking Copy-and-paste Code Clones and Renaming Identifiers Consistently in the IDE},
-    booktitle = {Proceedings of the 2007 OOPSLA Workshop on Eclipse Technology eXchange},
-    series = {eclipse '07},
-    year = {2007},
-    isbn = {978-1-60558-015-9},
-    location = {Montreal, Quebec, Canada},
-    pages = {16--20},
-    numpages = {5},
-    url = {http://doi.acm.org/10.1145/1328279.1328283},
-    doi = {10.1145/1328279.1328283},
-    acmid = {1328283},
-    publisher = {ACM},
-    address = {New York, NY, USA},
-    keywords = {Eclipse integrated development environment, Java, abstract syntax tree, code clone, consistent renaming, copy-and-paste programming, error detection, intent inference},
-} 
 
-@Article{DBLP:journals/corr/LiuZX0017,
-    author       = {Xinyuan Liu and Muhan Zeng and Yingfei Xiong and Lu
-    Zhang and Gang Huang},
-    title        = {Identifying Patch Correctness in Test-Based
-    Automatic Program Repair},
-    year         = 2017,
-    volume       = {abs/1706.09120},
-    url          = {http://arxiv.org/abs/1706.09120},
+@Article{Murali-CoRR17,
+  author       = {Vijayaraghavan Murali and Swarat Chaudhuri and Chris
+                  Jermaine},
+  title        = {Bayesian Sketch Learning for Program Synthesis},
+  year         = 2017,
+  volume       = {abs/1703.05698},
+  eprint       = {1703.05698},
+  journal      = {CoRR},
+}
+
+
+@Article{Monperrus:CoRR18,
+	author    = "Victor Sobreira and Thomas Durieux and Fernanda Madeiral and Martin Monperrus and Marcelo A. Maia",
+	title     = "{Dissection of a Bug Dataset: Anatomy of 395 Patches from Defects4J}",
+	volume    = {abs/1801.06393},
+	year      = "2018",
+	eprint = {1801.06393},
     journal      = {CoRR},
-    timestamp    = {Mon, 03 Jul 2017 13:29:02 +0200},
-    biburl       =
-    {http://dblp.dagstuhl.de/rec/bib/journals/corr/LiuZX0017},
-    bibsource    = {dblp computer science bibliography, http://dblp.org}
 }
 
-@inproceedings{Jin:2012:UDR:2254064.2254075,
-    author = {Jin, Guoliang and Song, Linhai and Shi, Xiaoming and Scherpelz, Joel and Lu, Shan},
-    title = {Understanding and Detecting Real-world Performance Bugs},
-    booktitle = {Proceedings of the 33rd ACM SIGPLAN Conference on Programming Language Design and Implementation},
-    series = {PLDI '12},
-    year = {2012},
-    location = {Beijing, China},
-    url = {http://doi.acm.org/10.1145/2254064.2254075},
-    doi = {10.1145/2254064.2254075},
-    publisher = {ACM}
+@inproceedings{chen2016xgboost,
+	title={Xgboost: A scalable tree boosting system},
+	author={Chen, Tianqi and Guestrin, Carlos},
+	booktitle={Proceedings of the 22nd acm sigkdd international conference on knowledge discovery and data mining},
+	pages={785--794},
+	year={2016},
+	organization={ACM}
 }
 
-@inproceedings{Ongkosit:2014:RAT:2661694.2661695,
-    author = {Ongkosit, Thanaporn and Takada, Shingo},
-    title = {Responsiveness Analysis Tool for Android Application},
-    booktitle = {Proceedings of the 2Nd International Workshop on Software Development Lifecycle for Mobile},
-    series = {DeMobile 2014},
-    year = {2014},
-    url = {http://doi.acm.org/10.1145/2661694.2661695},
-    doi = {10.1145/2661694.2661695},
-    publisher = {ACM}
-} 
-
-@inproceedings{ELIXIR,
-    author = {Saha, Ripon K. and Lyu, Yingjun and Yoshida, Hiroaki and Prasad, Mukul R.},
-    title = {ELIXIR: Effective Object Oriented Program Repair},
-    booktitle = {Proceedings of the 32Nd IEEE/ACM International Conference on Automated Software Engineering},
-    series = {ASE 2017},
-    year = {2017},
-    location = {Urbana-Champaign, IL, USA},
-    url = {http://dl.acm.org/citation.cfm?id=3155562.3155643},
-    publisher = {IEEE Press},
+@inproceedings{mikolov2013distributed,
+	title={Distributed representations of words and phrases and their compositionality},
+	author={Mikolov, Tomas and Sutskever, Ilya and Chen, Kai and Corrado, Greg S and Dean, Jeff},
+	booktitle={Advances in neural information processing systems},
+	pages={3111--3119},
+	year={2013}
 }
 
-@inproceedings{ssFix,
-    author = {Xin, Qi and Reiss, Steven P.},
-    title = {Leveraging Syntax-related Code for Automated Program Repair},
-    booktitle = {Proceedings of the 32Nd IEEE/ACM International Conference on Automated Software Engineering},
-    series = {ASE 2017},
-    year = {2017},
-    isbn = {978-1-5386-2684-9},
-    location = {Urbana-Champaign, IL, USA},
-    url = {http://dl.acm.org/citation.cfm?id=3155562.3155644},
-}
-
-@INPROCEEDINGS{JAID, 
-    author={Chen, Liushan and Pei, Yu and Furia, Carlo A.}, 
-    booktitle={2017 32nd IEEE/ACM International Conference on Automated Software Engineering (ASE)}, 
-    title={Contract-based program repair without the contracts}, 
-    year={2017}, 
-    doi={10.1109/ASE.2017.8115674},
-}
-
-@article{box1986analysis,
-  title={An analysis for unreplicated fractional factorials},
-  author={Box, George EP and Meyer, R Daniel},
-  journal={Technometrics},
-  volume={28},
-  number={1},
-  pages={11--18},
-  year={1986},
-  publisher={Taylor \& Francis Group}
-}
-
-@inproceedings{rolim17,
-  author    = {Reudismam Rolim and
-               Gustavo Soares and
-               Loris D'Antoni and
-               Oleksandr Polozov and
-               Sumit Gulwani and
-               Rohit Gheyi and
-               Ryo Suzuki and
-               Bj{\"{o}}rn Hartmann},
-  title     = {Learning syntactic program transformations from examples},
-  booktitle = {ICSE},
-  pages     = {404--415},
-  year      = {2017},
-}
