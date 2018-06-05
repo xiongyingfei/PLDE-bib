@@ -79,6 +79,14 @@
     address = {Amsterdam, The Netherlands, The Netherlands},
 }
 
+@techreport{practical-refactoring,
+    author = {Roberts, Donald B},
+    title = {Practical Analysis for Refactoring},
+    year = {1999},
+    publisher = {University of Illinois at Urbana-Champaign},
+    address = {Champaign, IL, USA},
+}
+
 @Comment  /************************ IN 2000 ***************************/
 
 @book{Java,
@@ -95,6 +103,15 @@
     yeat = {2000},
     pages = {171-194},
     doi = {10.1002/1099-1689(200009)10:3<171::AID-STVR209>3.0.CO;2-J},
+}
+
+@inproceedings{komondoor2000semantics,
+    title={Semantics-preserving procedure extraction},
+    author={Komondoor, Raghavan and Horwitz, Susan},
+    booktitle={POPL},
+    pages={155--169},
+    year={2000},
+    organization={ACM}
 }
 
 @Comment  /************************ IN 2001 ***************************/
@@ -1172,11 +1189,10 @@ BibTeX | EndNote | ACM Ref
 
 @INPROCEEDINGS{AE,
   author =       {Weimer, W. and Fry, Z.P. and Forrest, S.},
-  booktitle =    {Automated Software Engineering (ASE), 2013 IEEE/ACM
-                  28th International Conference on},
+  booktitle =    {ASE},
   title =        {Leveraging program equivalence for adaptive program
                   repair: Models and first results},
-  year =         2013,
+  year =         {2013},
   pages =        {356-366},
 }
 
@@ -1331,6 +1347,7 @@ BibTeX | EndNote | ACM Ref
   booktitle =    {ICSE},
   year =         2014,
   pages =        {266--276},
+    doi = {10.1145/2568225.2568258}
 }
 
 @inproceedings{RSRepair,
@@ -1409,6 +1426,7 @@ BibTeX | EndNote | ACM Ref
     booktitle = {ASE},
     pages     = {313--324},
     year      = {2014},
+    doi = {10.1145/2642937.2642982}
 }
 
 @InProceedings{Le-PLDI14,
@@ -1536,6 +1554,8 @@ BibTeX | EndNote | ACM Ref
   title =        {DirectFix: Looking for Simple Program Repairs},
   booktitle =    {ICSE},
   year =         2015,
+  pages={448-458},
+  doi={10.1109/ICSE.2015.63}, 
 }
 
 @INPROCEEDINGS{staged,
@@ -1832,8 +1852,10 @@ BibTeX | EndNote | ACM Ref
 @inproceedings{Long2016,
   author =       {Long, Fan and Rinard, Martin},
   title =        {Automatic patch generation by learning correct code},
-  booktitle =    {POPL},
-  year =         2016
+  booktitle =    {Proceedings of the 43rd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages},
+  year =         2016,
+  doi = {10.1145/2837614.2837617},
+  pages = {298--312}
 }
 
 @inproceedings{Mechtaev,
@@ -1851,14 +1873,18 @@ BibTeX | EndNote | ACM Ref
                   Validate Patch Generation Systems},
   author =       {Long, Fan and Rinard, Martin},
   booktitle =    {ICSE},
-  year =         2016
+  year =         2016,
+  doi = {10.1145/2884781.2884872},
+  pages = {702--713}
 }
 
 @inproceedings{Xuan2016History,
   title =        {History Driven Program Repair},
   author =       {Xuan-Bach D Le and David Lo and Claire {Le Goues}},
   booktitle =    {SANER},
-  year =         2016
+  year =         2016,
+  pages={213-224},
+  doi={10.1109/SANER.2016.76}
 }
 
 @inproceedings{Cai16,
@@ -1915,7 +1941,7 @@ BibTeX | EndNote | ACM Ref
 
 @INPROCEEDINGS{Ji2016, 
     author={T. Ji and L. Chen and X. Mao and X. Yi}, 
-    booktitle={2016 IEEE 40th Annual Computer Software and Applications Conference (COMPSAC)}, 
+    booktitle={COMPSAC}, 
     title={Automated Program Repair by Using Similar Code Containing Fix Ingredients}, 
     year={2016}, 
     volume={1}, 
@@ -2227,7 +2253,8 @@ BibTeX | EndNote | ACM Ref
     title =        {Automatic Inference of Code Transforms for Patch Generation},
     booktitle =    {ESEC/FSE},
     pages =        {727--739},
-    year =         2017
+    year =         2017,
+    doi = {10.1145/3106237.3106253}
 }
 
 @inproceedings{gupta2017deepfix,
@@ -2257,6 +2284,8 @@ BibTeX | EndNote | ACM Ref
   author={Jinqiu Yang and Alexey Zhikhartsev and Yuefei Liu and Lin Tan},
   booktitle={FSE},
   year={2017},
+  pages = {831--841},
+  doi = {10.1145/3106237.3106274}
 }
 
 @inproceedings{Xin17,
@@ -2429,7 +2458,7 @@ BibTeX | EndNote | ACM Ref
 
 @INPROCEEDINGS{JAID, 
     author={Chen, Liushan and Pei, Yu and Furia, Carlo A.}, 
-    booktitle={2017 32nd IEEE/ACM International Conference on Automated Software Engineering (ASE)}, 
+    booktitle={ASE}, 
     title={Contract-based program repair without the contracts}, 
     year={2017}, 
     doi={10.1109/ASE.2017.8115674},
@@ -2579,7 +2608,9 @@ BibTeX | EndNote | ACM Ref
     author       = {Xuliang Liu and Hao Zhong},
     title        = {Mining StackOverflow for Program Repair},
     year         = 2018,
-    booktitle    = {Saner},
+    booktitle    = {2018 IEEE 25th International Conference on Software Analysis, Evolution and Reengineering},
+    doi = {10.1109/SANER.2018.8330202},
+    pages = {118-129}
 }
 
 @article{zou2018empirical,
@@ -2587,6 +2618,14 @@ BibTeX | EndNote | ACM Ref
     author={Zou, Daming and Liang, Jingjing and Xiong, Yingfei and Ernst, Michael D and Zhang, Lu},
     journal={arXiv preprint arXiv:1803.09939},
     year={2018}
+}
+
+@Article{Mei2018,
+    author={Mei, Hong and Zhang, Lu},
+    title={Can big data bring a breakthrough for software automation?},
+    journal={Science China Information Sciences},
+    year={2018},
+    doi={10.1007/s11432-017-9355-3}
 }
 
 @Comment  /************************************************************/
@@ -2601,7 +2640,7 @@ BibTeX | EndNote | ACM Ref
     title = {SimFix},
     author = {Jiajun Jiang},
     year={2017},
-    howpublished    = {https://github.com/xgdsmileboy/SimFix.git},
+    howpublished    = {https://github.com/xgdsmileboy/SimFix},
 }
 
 @online(ant,
